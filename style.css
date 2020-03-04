@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+.pole{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
+    flex-flow: wrap;
+   
+}
+.num{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+button{
+    width:100px;
+}
+
+@media (max-width: 600px) {
+    .pole{
+        width: 300px;
+    }
+  }
+  
